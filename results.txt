@@ -1,0 +1,43 @@
+Food Name,CountOf
+"Apple, Fresh, Without Skin",7
+"Arugula, Raw",7
+"Black Pepper, Ground",14
+"Broccoli, Raw",1
+"Carrots, Raw",2
+"Celeriac, Celery Root, Raw",3
+"Celery, Raw",7
+"Chicken, Roasting, Meat Only, Cooked, Roasted",4
+"Chicken, broilers or fryers, skin only, cooked, roasted",1
+"Collards, Raw",7
+"Cowpeas, common (blackeyes, crowder, southern), mature seeds, raw",1
+Curry Powder,7
+Dijon Mustard,1
+"Duck, Goose or Wild Fowl Fat",2
+"Egg shell, dried, ground",14
+"Eggs, Cooked",7
+"Fat, mutton tallow",13
+"Garlic, Fresh",14
+Honey,6
+Jasmine Tea,7
+Kefir,1
+"Lamb Roast, Leg, No Visible Fat Eaten",1
+"Lemon Juice, Fresh",14
+"Lentils, Pink or Red, Raw",1
+"Lentils, Raw",2
+"Mackerel, Atlantic, Cooked",1
+"Mushrooms, Raw",7
+"Onion, White, Yellow or Red, Raw",5
+"Oyster, Canned, Drained",1
+"Peas, Green, Split, Mature Seeds, Raw",2
+"Potatoes, White, Flesh and Skin, Raw",6
+"Red Bell Peppers, Raw",5
+"Rice, Brown, Long-Grain, Raw",1
+Sainsbury's Organic Mixed Herbs,7
+Salt,14
+"Soup, Stock, Beef, Home-Prepared",6
+"Soup, Stock, Chicken, Home-Prepared",1
+"Strawberries, Fresh",7
+"Tomato Raw, Includes Cherry, Grape, Roma",7
+"Turmeric, Ground",13
+"Turnip, Raw",3
+"Watercress, Raw",7
