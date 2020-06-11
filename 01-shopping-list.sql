@@ -45,11 +45,13 @@ case
 	when [Food Name] like '%Leeks%' then 'Vegetables'
 	when [Food Name] like '%Cauliflower%' then 'Vegetables'
 	when [Food Name] like '%Cabbage%' then 'Vegetables'
+	when [Food Name] like '%Cucumber%' then 'Vegetables'
 	when [Food Name] like '%Carrots%' then 'Root vegetables'
 	when [Food Name] like '%Celeriac%' then 'Root vegetables'
 	when [Food Name] like '%Celery%' then 'Vegetables'
 	when [Food Name] like '%Turnip%' then 'Root vegetables'
 	when [Food Name] like '%Beets%' then 'Root vegetables'
+	when [Food Name] like '%Rutabaga%' then 'Root vegetables'
 	when [Food Name] like '%Oyster%' then 'Fish and Seafood'
 	when [Food Name] like '%Mackerel%' then 'Fish and Seafood'
 	when [Food Name] like '%Prawns%' then 'Fish and Seafood'
@@ -114,6 +116,8 @@ case
 	when [Food Name] like '%Cabbage%' then CAST(Amount as decimal)
 	when [Food Name] like '%Raspberries%' then CAST(Amount as decimal)
 	when [Food Name] like '%Black Forest Fruits%' then CAST(Amount as decimal)
+	when [Food Name] like '%Cucumber%' then CAST(Amount as decimal)
+	when [Food Name] like '%Rutabaga%' then CAST(Amount as decimal)
 	
 	else 0
 end as sains,
@@ -142,6 +146,8 @@ case
 	when [Food Name] like '%Oatmeal%' then CAST(Amount as decimal)
 	when [Food Name] like '%Prawns%' then CAST(Amount as decimal)
 	when [Food Name] like '%Frozen Summer Fruits%' then CAST(Amount as decimal)
+	when [Food Name] like '%Cucumber%' then CAST(Amount as decimal)
+	when [Food Name] like '%Rutabaga%' then CAST(Amount as decimal)
 	
 	else 0
 end as coop,
@@ -196,6 +202,8 @@ case
 	when [Food Name] like '%Scallops%' then 290
 	when [Food Name] like '%Frozen%' then 290
 	when [Food Name] like '%Freshly Frozen Summer Fruits%' then 290	
+	when [Food Name] like '%Cucumber%' then 290	
+	when [Food Name] like '%Rutabaga%' then 290	
 	
 	else 900
 end as aisle,
