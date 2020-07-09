@@ -1,0 +1,5 @@
+#!/bin/bash
+#rm servings.db
+#  csvsql --db sqlite:///servings.db --insert servings.csv
+csvsql --db sqlite:///servings.db --no-create --insert servings.csv
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+#rm servings.db
+#csvsql --db sqlite:///servings.db --insert servings.csv
+
+../sqlite-runner/run ./01-shopping-list.sql $PWD localc
