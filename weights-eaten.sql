@@ -35,7 +35,7 @@ round(sum(grams_drunk)*0.00220462,1) as lbs_drunk,
 round(sum(non_water_grams)*0.00220462,1) as lbs_non_water,
 round(sum(water_grams)*0.00220462,1) as lbs_water,
 round(sum(grams_total)*0.00220462,1) as lbs_total,
-round(sum(fibre_grams)*0.00220462,1) as lbs_fibre,
+round(sum(fibre_grams)*0.00220462,2) as lbs_fibre,
 sum(kcals) as kcals 
 from v_eaten
 group by
